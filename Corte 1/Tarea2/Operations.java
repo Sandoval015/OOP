@@ -23,7 +23,7 @@ public class Operations {
        // data.setResultado((exponente == 0 ? 1 : base * potencia(base, exponente - 1));
    // }
 
-    // aqui lo que hago es retornar el resultado poara poder manipularlo
+    // aqui lo que hago es retornar el resultado para poder manipularlo
     public int getResultado() {
         return data.getResultado();
     }
