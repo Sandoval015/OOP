@@ -1,5 +1,5 @@
 public class Data {
-    //voy a realizar un atributo para almacenar los resultados 
+    //atributo para almacenar resultados 
     private int resultados;
 
     //los get y set para los resultados uno lo obtiene y el otro lo establece
