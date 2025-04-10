@@ -8,7 +8,7 @@ public class Operations {
 
     // metodos para las operaciones
     public void sumar(int a, int b) {
-        data.setResultado(a + b); // Uso Data para almacenar el resultado
+        data.setResultado(a + b); // uso data para almacenar el resultado
     }
 
     public void restar(int a, int b) {
