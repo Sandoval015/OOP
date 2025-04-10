@@ -1,11 +1,12 @@
 public class Operations {
-    private Data data; // Instancia de Data
-
+    private Data data; //cada objeto de Options tendra su copia de data
+    
+    //el construc
     public Operations() {
-        data = new Data(); // Inicializo Data
+        data = new Data(); // inicializo Data
     }
 
-    // Métodos para las operaciones
+    // metodos para las operaciones
     public void sumar(int a, int b) {
         data.setResultado(a + b); // Uso Data para almacenar el resultado
     }
@@ -22,7 +23,7 @@ public class Operations {
        // data.setResultado((exponente == 0 ? 1 : base * potencia(base, exponente - 1));
    // }
 
-    // aqui lo que hago es retornar el resultado
+    // aqui lo que hago es retornar el resultado poara poder manipularlo
     public int getResultado() {
         return data.getResultado();
     }
